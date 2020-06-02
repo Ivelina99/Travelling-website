@@ -1,4 +1,6 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600&family=Mate:ital@0;1&family=Niconne&family=Old+Standard+TT:ital@1&family=Oleo+Script:wght@400;700&family=Permanent+Marker&family=Sofia&display=swap');
     margin: 0;
     padding: 0;
 }
@@ -103,14 +105,21 @@ nav a:hover {
 }
 
 .gallery li span { 
+    font-family: Oleo Script;
     display: block;
     margin: 0 auto;
     text-align: center;
     margin-top: 2.7em;
 }
+.gallery li p {
+    font-family: 'Oleo Script';
+    font-weight: 700;
+}
 
 .gallery li h2 {
+    font-family:'Mate';
     margin-top: 1.8em;
+
 }
 
 .gallery li a {
