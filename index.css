@@ -195,3 +195,86 @@ nav a:hover {
 .created-by p {
     padding: 2em 0;
 }
+
+/* second page */
+
+.wrapper.w-40 {
+    width: 40em;
+    margin: 0 auto;
+}
+
+.article-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3em;
+}
+
+.article-info span {
+    display: block;
+    color: #5C80CE;
+    font-weight: 700;
+}
+
+.article-info span:first-child,
+.article-info span:last-child {
+    color: #888b98;
+    font-style: italic;
+}
+
+.article-content {
+
+}
+
+.article-content h1{
+    font-size: 4em;
+    margin-bottom: 1.5em;
+}
+
+.article-content p {
+    color: #50586D;
+    font-size: 1.5em;
+    letter-spacing: 0.03em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+}
+
+.gallery.cur-article ul{
+    display: block;
+}
+
+.gallery.cur-article  li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    
+}
+
+.gallery.cur-article  p{
+    font-style: italic;
+    color: #888b98;
+    letter-spacing: 0.1em;
+    width: 12em;
+    text-align: left;
+    line-height: 1.2em;
+    padding-top: 1em;
+    border-top: 3px solid #888b98;;
+    
+}
+
+.gallery.cur-article  img{
+    display: block;
+    width: 60em;
+    height: auto;
+}
+
+#btn-search {
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #FFF;
+    width: 10em;
+    background-color: #06c9b8;
+    border-radius: 1em;
+    display: block;
+    padding: 1em;
+}
