@@ -84,6 +84,70 @@ nav a:hover {
     margin: 0 auto;
 }
 
+.about-us {
+    margin-bottom: 5em;
+}
+
+.about-us h2 {
+    text-align: center;
+}
+
+.about-us ul {
+    display: flex;
+    margin-top: 3em;
+}
+
+.about-us li {
+    flex: 0 0 33%;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.about-us li img {
+    display: block;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 5px solid transparent;
+}
+.about-us li img:hover {
+    border: 5px solid #000;
+}
+
+.about-us h3 {
+    font-size: 1.5em;
+    text-align: center;
+    width: 32em;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.about-us p {
+    color: #8889B8;
+    font-size: 1.2em;
+    width: 40em;
+    margin: 0 auto;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.about-us .button {
+    color: #5C80CE;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 3px solid #5C80CE;
+    width: 9em;
+    padding: 1em 3em;
+    border-radius: 2em;
+    text-transform: uppercase;
+}
+
+.about-us .button:hover {
+    color: #FFF;
+    background-color: #5C80CE;
+}
+
 .gallery ul {
     display: flex;
     justify-content: space-between;
