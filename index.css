@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Oleo+Script:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Oleo+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@600&family=Mate:ital@0;1&family=Niconne&family=Old+Standard+TT:ital@1&family=Oleo+Script:wght@400;700&family=Permanent+Marker&family=Sofia&display=swap');
-    * {
-margin: 0;
+* {
+    margin: 0;
     padding: 0;
 }
 
+body {
+    background-color: linen;
+}
+
 header {
-    border: 1px solid seagreen;
-    background-image: url('https://images.unsplash.com/photo-1484830020404-9ce1fd56fdf9?ixlib=rb-1.2.1&auto=format&fit=crop&w=897&q=80');
-    background-position: 0% 68%;
+    background-image: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-position: 0% 37%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 5em;
+    margin-bottom: 2em;
+    height: 39em;
+}
+
+main {
+    background-color: linen
 }
 
 nav ul {
@@ -22,18 +30,23 @@ nav ul {
 nav li {
     list-style: none;
     margin: 1em;
+    padding-top: 0.5em;
 }
 
 nav a {
     text-decoration: none;
     /* border: 1px solid yellow; */
     color: cornsilk;
-    border-radius: 0.4em;
-    padding: 0.5em 0.1em;
+    border-radius: 0.8em;
+    padding: 0.6em 0.2em;
+    margin-top: 0.5em;
+    display: block;
+    background: transparent;
+    border: 1px solid white;
 }
 
 nav a:hover {
-    background-color: crimson;
+    background-color: tan;
 }
 
 .navigation {
@@ -42,36 +55,83 @@ nav a:hover {
     margin-bottom: 1em;
 }
 
+.site-title {
+    font-family: 'Oleo Script';
+    font-size: 2.7em;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    margin-bottom: 3em;
+    padding-top: 1em;
+}
+
 .search {
     text-align: center;
     margin-bottom: 7em;
 }
 
+#btn {
+    font-family: 'Oleo Script';
+    font-size: 1.5em;
+    width: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid peachpuff;
+    border-radius: 1.5em;
+    background-color: #346D5F;
+}
+
+#btn:hover {
+    color: wheat;
+}
+
 .search input {
     width: 50em;
-    height: 2em;
-    border-radius: 1em;
-    background-color: whitesmoke;
-    border: none;
+    height: 2.5em;
+    background-color: #C8CAC6;
+    border-radius: 5em;
+    border: lightslategray;
     margin-top: 5em;
+    margin-bottom: 0.5em;
 }
 
 .info-us ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    border: 1px solid #EDEEF0;
+    border: 1px solid silver;
+    /* width: 80em; */
 }
 
 .info-us li {
-    border: 1px solid #EDEEF0;
+    display: block;
+    border: 1px solid silver;
     padding: 5.25em 5.06em;
+    flex: 0 0 21.2%;
+}
+
+.info-us p a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.info-us p a:hover {
+    color: coral;
+}
+
+.info-us li:hover {
+    background-color: lavender;
 }
 
 .info-us h1 {
     margin-bottom: 2em;
     font-size: 1.1em;
     font-weight: 900;
+}
+
+.info-us p {
+    text-align: center;
+    color: #888B98;
 }
 
 .created-by p {
@@ -105,22 +165,22 @@ nav a:hover {
     overflow: hidden;
 }
 
-.gallery li span { 
+.gallery li span {
     font-family: Oleo Script;
     display: block;
     margin: 0 auto;
     text-align: center;
     margin-top: 2.7em;
 }
+
 .gallery li p {
     font-family: 'Oleo Script';
     font-weight: 700;
 }
 
 .gallery li h2 {
-    font-family:'Mate';
+    font-family: 'Mate';
     margin-top: 1.8em;
-
 }
 
 .gallery li a {
@@ -130,4 +190,12 @@ nav a:hover {
 
 .created-by p {
     padding: 2em 0;
+}
+
+.created-by p a:hover {
+    color: dimgray;
+}
+
+.created-by p a {
+    text-decoration: none;
 }
