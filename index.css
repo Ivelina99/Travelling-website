@@ -55,6 +55,13 @@ nav a:hover {
     margin-bottom: 1em;
 }
 
+.navigation img {
+    position: absolute;
+    width: 8.5em;
+    height: 8.5em;
+    margin: 0 auto;
+}
+
 .site-title {
     font-family: 'Oleo Script';
     font-size: 2.7em;
@@ -164,7 +171,6 @@ nav a:hover {
 }
 
 .about-us li img {
-    display: block;
     width: 10em;
     height: 10em;
     border-radius: 50%;
@@ -177,18 +183,16 @@ nav a:hover {
 }
 
 .about-us h2 {
-    font-family: Brush Script MT, Brush Script Std;
+    font-family: Oleo Script;
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: center;
-    font-size: 3em;
+    font-size: 5em;
     font-style: normal;
-
 }
 
 .about-us h3 {
-    font-family: URW Chancery L, cursive;
-    color: (rgb(71, 41, 6);
+    font-family: Oleo Script;
     font-size: 1.5em;
     text-align: center;
     width: 36em;
@@ -197,7 +201,7 @@ nav a:hover {
 }
 
 .about-us p {
-    font-family: URW Chancery L, cursive;
+    font-family: Oleo Script;
     color: rgb(129, 88, 88); 
     font-size: 1.2em;
     width: 40em;
@@ -283,6 +287,16 @@ nav a:hover {
         background-color: rgb(177, 137, 110);
 }
 
+.created-by img{
+    position: relative;
+    padding: 2em;
+    height: 17em;
+    width: 17em;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .created-by p {
     padding: 2em 0;
 }
@@ -316,6 +330,10 @@ nav a:hover {
 .article-info span:last-child {
     color: #888b98;
     font-style: italic;
+}
+
+.article-content {
+
 }
 
 .article-content h1{
@@ -371,4 +389,5 @@ nav a:hover {
     display: block;
     padding: 1em;
 }
+
 
