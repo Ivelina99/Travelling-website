@@ -172,19 +172,33 @@ nav a:hover {
     border: 5px solid transparent;
 }
 .about-us li img:hover {
-    border: 5px solid #000;
+    color: #FFF;
+    background-color: rgb(177, 137, 110);
+}
+
+.about-us h2 {
+    font-family: Brush Script MT, Brush Script Std;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 3em;
+    font-style: normal;
+
 }
 
 .about-us h3 {
+    font-family: URW Chancery L, cursive;
+    color: (rgb(71, 41, 6);
     font-size: 1.5em;
     text-align: center;
-    width: 32em;
+    width: 36em;
     margin: 0 auto;
     margin-top: 2em;
 }
 
 .about-us p {
-    color: #8889B8;
+    font-family: URW Chancery L, cursive;
+    color: rgb(129, 88, 88); 
     font-size: 1.2em;
     width: 40em;
     margin: 0 auto;
@@ -193,19 +207,21 @@ nav a:hover {
 }
 
 .about-us .button {
-    color: #5C80CE;
+    color:rgb(177, 137, 110);
     margin: 0 auto;
     margin-top: 2em;
-    border: 3px solid #5C80CE;
-    width: 9em;
+    border: 3px solid rgb(177, 137, 110);
+    width: 10em;
     padding: 1em 3em;
     border-radius: 2em;
     text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-us .button:hover {
     color: #FFF;
-    background-color: #5C80CE;
+    background-color: rgb(177, 137, 110);
 }
 
 .gallery ul {
@@ -250,20 +266,33 @@ nav a:hover {
 .gallery li a {
     margin-top: 4.9em;
     display: block;
+    color: rgb(177, 137, 110);
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 4px solid rgb(177, 137, 110);
+    width: 9em;
+    padding: 1em 3em;
+    border-radius: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gallery li a:hover {
+        color: #FFF;
+        background-color: rgb(177, 137, 110);
 }
 
 .created-by p {
     padding: 2em 0;
 }
 
-<<<<<<< HEAD
 .created-by p a:hover {
     color: dimgray;
 }
 
 .created-by p a {
     text-decoration: none;
-=======
 /* second page */
 
 .wrapper.w-40 {
@@ -287,10 +316,6 @@ nav a:hover {
 .article-info span:last-child {
     color: #888b98;
     font-style: italic;
-}
-
-.article-content {
-
 }
 
 .article-content h1{
@@ -345,5 +370,5 @@ nav a:hover {
     border-radius: 1em;
     display: block;
     padding: 1em;
->>>>>>> 133c834817f521db43ca93bff6e9e3cbba67c526
 }
+
