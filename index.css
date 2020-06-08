@@ -56,6 +56,7 @@ nav a:hover {
     margin-bottom: 1em;
 }
 
+<<<<<<< HEAD
 .logo {
     margin: 0 auto;
     width: 10em;
@@ -66,6 +67,13 @@ nav a:hover {
     width: 9em;
     height: 9em;
     border-radius: 50%;
+=======
+.navigation img {
+    position: absolute;
+    width: 8.5em;
+    height: 8.5em;
+    margin: 0 auto;
+>>>>>>> a42a246c8ae0f31aaee4bb6889120fbb0ae89415
 }
 
 .site-title {
@@ -180,28 +188,43 @@ nav a:hover {
 }
 
 .about-us li img {
-    display: block;
     width: 10em;
     height: 10em;
     border-radius: 50%;
     margin: 0 auto;
     border: 5px solid transparent;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .about-us li img:hover {
-    border: 5px solid #000;
+    color: #FFF;
+    background-color: rgb(177, 137, 110);
+}
+
+.about-us h2 {
+    font-family: Oleo Script;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 5em;
+    font-style: normal;
 }
 
 .about-us h3 {
+    font-family: Oleo Script;
     font-size: 1.5em;
     text-align: center;
-    width: 32em;
+    width: 38em;
+    height: 3em;
     margin: 0 auto;
     margin-top: 2em;
 }
 
 .about-us p {
-    color: #8889B8;
+    font-family: Oleo Script;
+    color: rgb(129, 88, 88); 
     font-size: 1.2em;
     width: 40em;
     margin: 0 auto;
@@ -210,19 +233,21 @@ nav a:hover {
 }
 
 .about-us .button {
-    color: #5C80CE;
+    color:rgb(177, 137, 110);
     margin: 0 auto;
     margin-top: 2em;
-    border: 3px solid #5C80CE;
-    width: 9em;
+    border: 3px solid rgb(177, 137, 110);
+    width: 10em;
     padding: 1em 3em;
     border-radius: 2em;
     text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-us .button:hover {
     color: #FFF;
-    background-color: #5C80CE;
+    background-color: rgb(177, 137, 110);
 }
 
 .gallery ul {
@@ -272,6 +297,31 @@ nav a:hover {
 .gallery li a {
     margin-top: 4.9em;
     display: block;
+    color: rgb(177, 137, 110);
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 4px solid rgb(177, 137, 110);
+    width: 9em;
+    padding: 1em 3em;
+    border-radius: 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gallery li a:hover {
+        color: #FFF;
+        background-color: rgb(177, 137, 110);
+}
+
+.created-by img{
+    position: relative;
+    padding: 2em;
+    height: 17em;
+    width: 17em;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer .logo {
@@ -291,8 +341,11 @@ footer .logo {
 .created-by p a {
     text-decoration: none;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> a42a246c8ae0f31aaee4bb6889120fbb0ae89415
 /* second page */
 
 .wrapper.w-40 {
@@ -359,4 +412,21 @@ footer .logo {
     display: block;
     width: 60em;
     height: auto;
+<<<<<<< HEAD
 }
+=======
+}
+
+#btn-search {
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #FFF;
+    width: 10em;
+    background-color: #06c9b8;
+    border-radius: 1em;
+    display: block;
+    padding: 1em;
+}
+
+
+>>>>>>> a42a246c8ae0f31aaee4bb6889120fbb0ae89415
