@@ -25,17 +25,18 @@ main {
 
 nav ul {
     display: flex;
+    width: 20em;
+    margin-left: auto;
 }
 
 nav li {
     list-style: none;
-    margin: 1em;
+    margin-right: 1em;
     padding-top: 0.5em;
 }
 
 nav a {
     text-decoration: none;
-    /* border: 1px solid yellow; */
     color: cornsilk;
     border-radius: 0.8em;
     padding: 0.6em 0.2em;
@@ -50,9 +51,21 @@ nav a:hover {
 }
 
 .navigation {
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: right; */
     margin-bottom: 1em;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 10em;
+    height: 10em;
+}
+
+.logo img {
+    width: 9em;
+    height: 9em;
+    border-radius: 50%;
 }
 
 .site-title {
@@ -61,8 +74,6 @@ nav a:hover {
     text-align: center;
     color: white;
     font-style: normal;
-    margin-bottom: 3em;
-    padding-top: 1em;
 }
 
 .search {
@@ -95,6 +106,10 @@ nav a:hover {
     margin-bottom: 0.5em;
 }
 
+.search input:focus {
+    outline: none;
+}
+
 .info-us ul {
     display: flex;
     justify-content: space-between;
@@ -124,6 +139,7 @@ nav a:hover {
 }
 
 .info-us h1 {
+    text-align: center;
     margin-bottom: 2em;
     font-size: 1.1em;
     font-weight: 900;
@@ -171,6 +187,7 @@ nav a:hover {
     margin: 0 auto;
     border: 5px solid transparent;
 }
+
 .about-us li img:hover {
     border: 5px solid #000;
 }
@@ -219,12 +236,17 @@ nav a:hover {
     height: 35.8em;
     overflow: hidden;
     text-align: center;
+    margin-bottom: 3.7em;
+}
+
+.gallery li:hover {
+    opacity: 0.5;
 }
 
 .gallery img {
     width: 20.3em;
     /*20.3*/
-    height: 20.em;
+    height: 15em;
     display: block;
     overflow: hidden;
 }
@@ -252,18 +274,25 @@ nav a:hover {
     display: block;
 }
 
+footer .logo {
+    margin: 1em auto;
+    width: 10em;
+    height: 10em;
+}
+
 .created-by p {
     padding: 2em 0;
 }
 
-<<<<<<< HEAD
 .created-by p a:hover {
     color: dimgray;
 }
 
 .created-by p a {
     text-decoration: none;
-=======
+}
+
+
 /* second page */
 
 .wrapper.w-40 {
@@ -289,11 +318,9 @@ nav a:hover {
     font-style: italic;
 }
 
-.article-content {
+.article-content {}
 
-}
-
-.article-content h1{
+.article-content h1 {
     font-size: 4em;
     margin-bottom: 1.5em;
 }
@@ -306,19 +333,18 @@ nav a:hover {
     line-height: 1.5em;
 }
 
-.gallery.cur-article ul{
+.gallery.cur-article ul {
     display: block;
 }
 
-.gallery.cur-article  li{
+.gallery.cur-article li {
     list-style: none;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2em;
-    
 }
 
-.gallery.cur-article  p{
+.gallery.cur-article p {
     font-style: italic;
     color: #888b98;
     letter-spacing: 0.1em;
@@ -326,24 +352,11 @@ nav a:hover {
     text-align: left;
     line-height: 1.2em;
     padding-top: 1em;
-    border-top: 3px solid #888b98;;
-    
+    border-top: 3px solid #888b98;
 }
 
-.gallery.cur-article  img{
+.gallery.cur-article img {
     display: block;
     width: 60em;
     height: auto;
-}
-
-#btn-search {
-    text-transform: uppercase;
-    margin: 0 auto;
-    color: #FFF;
-    width: 10em;
-    background-color: #06c9b8;
-    border-radius: 1em;
-    display: block;
-    padding: 1em;
->>>>>>> 133c834817f521db43ca93bff6e9e3cbba67c526
 }
