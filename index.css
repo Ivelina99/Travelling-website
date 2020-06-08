@@ -198,7 +198,8 @@ nav a:hover {
     font-family: Oleo Script;
     font-size: 1.5em;
     text-align: center;
-    width: 36em;
+    width: 38em;
+    height: 3em;
     margin: 0 auto;
     margin-top: 2em;
 }
