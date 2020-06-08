@@ -10,8 +10,8 @@ body {
     background-color: linen;
 }
 
-header {
-    background: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat;
+header.home-page {
+    background:url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat;
     background-position: 0% 45%;
     background-size: cover;
     margin-bottom: 2em;
@@ -342,6 +342,15 @@ footer .logo {
 
 
 /* second page */
+
+header.other-page {
+    background-image: url('https://images.unsplash.com/photo-1507401287347-ffbd7b5a6e59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80');
+    background-repeat: no-repeat;
+    background-position: 0% 45%;
+    background-size: cover;
+    margin-bottom: 2em;
+    height: 39em;
+}
 
 .wrapper.w-40 {
     width: 40em;
