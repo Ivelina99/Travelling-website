@@ -56,7 +56,6 @@ nav a:hover {
     margin-bottom: 1em;
 }
 
-<<<<<<< HEAD
 .logo {
     margin: 0 auto;
     width: 10em;
@@ -67,13 +66,13 @@ nav a:hover {
     width: 9em;
     height: 9em;
     border-radius: 50%;
-=======
+}
+
 .navigation img {
     position: absolute;
     width: 8.5em;
     height: 8.5em;
     margin: 0 auto;
->>>>>>> a42a246c8ae0f31aaee4bb6889120fbb0ae89415
 }
 
 .site-title {
@@ -194,8 +193,8 @@ nav a:hover {
     margin: 0 auto;
     border: 5px solid transparent;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-us li img:hover {
@@ -224,7 +223,7 @@ nav a:hover {
 
 .about-us p {
     font-family: Oleo Script;
-    color: rgb(129, 88, 88); 
+    color: rgb(129, 88, 88);
     font-size: 1.2em;
     width: 40em;
     margin: 0 auto;
@@ -233,7 +232,7 @@ nav a:hover {
 }
 
 .about-us .button {
-    color:rgb(177, 137, 110);
+    color: rgb(177, 137, 110);
     margin: 0 auto;
     margin-top: 2em;
     border: 3px solid rgb(177, 137, 110);
@@ -310,18 +309,18 @@ nav a:hover {
 }
 
 .gallery li a:hover {
-        color: #FFF;
-        background-color: rgb(177, 137, 110);
+    color: #FFF;
+    background-color: rgb(177, 137, 110);
 }
 
-.created-by img{
+.created-by img {
     position: relative;
     padding: 2em;
     height: 17em;
     width: 17em;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer .logo {
@@ -341,11 +340,8 @@ footer .logo {
 .created-by p a {
     text-decoration: none;
 }
-<<<<<<< HEAD
 
 
-=======
->>>>>>> a42a246c8ae0f31aaee4bb6889120fbb0ae89415
 /* second page */
 
 .wrapper.w-40 {
@@ -412,9 +408,6 @@ footer .logo {
     display: block;
     width: 60em;
     height: auto;
-<<<<<<< HEAD
-}
-=======
 }
 
 #btn-search {
@@ -427,6 +420,3 @@ footer .logo {
     display: block;
     padding: 1em;
 }
-
-
->>>>>>> a42a246c8ae0f31aaee4bb6889120fbb0ae89415
