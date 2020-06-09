@@ -11,11 +11,42 @@ body {
 }
 
 header.home-page {
-    background:url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat;
+    background: url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80') no-repeat;
     background-position: 0% 45%;
     background-size: cover;
     margin-bottom: 2em;
     height: 39em;
+}
+
+.information-alert {
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5em;
+    color: rgb(44, 34, 34);
+    background-color: rgb(52, 109, 95);
+    padding: 1em 0 1em 0;
+    display: none;
+    width: 20em;
+    margin: 0 auto;
+    font-family: 'Oleo Script';
+    font-size: 1.1em;
+}
+
+.information-alert:hover {
+    background-color: rgb(159, 187, 104);
+    color: rgb(131, 123, 18);
+}
+
+.close-information {
+    margin-left: 2em;
+    padding: 0.5em;
+    border: 1px solid transparent;
+}
+
+.close-information:hover {
+    color: rgb(39, 46, 2);
+    border: 1px solid rgb(25, 59, 9);
+    border-radius: 50%;
 }
 
 main {
@@ -230,7 +261,9 @@ nav a:hover {
     text-align: center;
 }
 
-.about-us .button {
+.about-us a.button {
+    display: block;
+    text-decoration: none;
     color: rgb(177, 137, 110);
     margin: 0 auto;
     margin-top: 2em;
@@ -243,7 +276,7 @@ nav a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.about-us .button:hover {
+.about-us a.button:hover {
     color: #FFF;
     background-color: rgb(177, 137, 110);
 }
@@ -293,7 +326,6 @@ nav a:hover {
 }
 
 .gallery li a {
-    margin-top: 4.9em;
     display: block;
     color: rgb(177, 137, 110);
     margin: 0 auto;
